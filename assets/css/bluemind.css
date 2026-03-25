@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Milky';
+    src: url('/assets/fonts/milky.regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Milky', sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header h1 {
+    opacity: 75%;
+    font-size: 3em;
+    line-height: 1.1em;
+    margin-bottom: 2em;
+    max-width: 1000px;
+}
+
+.bm-logo {
+    width: 10em;
+    margin-bottom: 5em;
+}
+
+.bm-background {
+    background-color: #031A1F;
+    font-family: 'Milky', sans-serif;
+}
+
+#header.bm-header {
+    padding-top: 2em;
+}
